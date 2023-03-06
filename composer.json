@@ -1,0 +1,22 @@
+{
+    "name": "rocha/xlr8",
+    "autoload": {
+        "psr-4": {
+            "Rocha\\Xlr8\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Paulo Rocha",
+            "email": "paulo.ricardo.rocha@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^v10.2.0"
+    }
+}
